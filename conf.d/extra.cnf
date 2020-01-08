@@ -1,0 +1,16 @@
+[mysqld] 
+; Default 151
+max_connections=75
+; Default 134217728
+innodb_buffer_pool_size=67108864
+
+
+; skip-locking
+; key_buffer = 16K
+;max_allowed_packet = 1M
+;table_cache = 4
+;sort_buffer_size = 64K
+;read_buffer_size = 256K
+;read_rnd_buffer_size = 256K
+;net_buffer_length = 2K
+;thread_stack = 64K
