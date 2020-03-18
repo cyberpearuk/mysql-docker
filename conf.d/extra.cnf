@@ -3,7 +3,8 @@
 max_connections=75
 ; Default 134217728
 innodb_buffer_pool_size=67108864
-
+; Default 4mb
+max_allowed_packet=16M
 
 ; skip-locking
 ; key_buffer = 16K
